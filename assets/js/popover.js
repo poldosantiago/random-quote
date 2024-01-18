@@ -11,7 +11,7 @@ function hidePopover(event){
       // console.log("Popover is being shown");
       setTimeout(() => {
         popover.hidePopover();
-    }, 5000);
+    }, 3000);
 
     }else {
       //console.log("Popover is being hidden");
