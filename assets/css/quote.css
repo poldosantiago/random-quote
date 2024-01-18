@@ -1,0 +1,77 @@
+/* toda parte do panel */
+.quote__panel{
+    width: 480px;
+    min-height: 150px;
+    background-color: var(--color3);
+    border-radius: 10px;
+    padding: 32px;
+    background-image: url('../img/bg-image-random-quote.svg');
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    margin-bottom: 16px;
+}
+
+.quote__author_name{
+    color: #FFF;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.quote__tag_panel{
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.quote__tag{
+    color: var(--color1);
+    padding: 4px 12px;
+    font-size: 10px;
+    border: 1px solid var(--color1);
+    border-radius: 15px;
+}
+
+.quote__text{
+    color: var(--color5);
+    font-size: 24px;
+    text-align: center;
+}
+
+.quote__text::before, .quote__text::after{
+    content: "\"";
+}
+
+/* botoes de controle */
+
+.quote__button_panel{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.quote__button{
+    background-color: var(--color2);
+    border:none;
+    border-top: 2px solid var(--color3);
+    border-bottom: 2px solid var(--color3);
+    padding: 12px;
+    cursor: pointer;
+}
+
+.quote__button_image:hover path{
+    fill: var(--color6);
+}
+
+.quote__button:first-child{
+    padding-right: 16px;
+    border-left: 2px solid var(--color3);
+    border-right: 2px solid var(--color3);
+    border-radius: 10px 0px 0px 10px;
+}
+
+.quote__button:nth-child(2){
+    padding-left: 16px;
+    border-right: 2px solid var(--color3);
+    border-radius: 0px 10px 10px 0px;
+}
