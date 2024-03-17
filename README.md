@@ -4,7 +4,7 @@ Gerador de citações aleatórias. O projeto faz parte do desafio proposto pelo 
 
 Para conferir o resultado, clique [aqui](https://random-quote-cyan.vercel.app/).
 
-A página do desafio pode ser acessada [aqui](https://devchallenges.io/challenge/38).
+A página do desafio pode ser acessada [aqui](https://devchallenges.io/challenge/qa-code-generator).
 
 ## Tecnologias utilizadas
 
