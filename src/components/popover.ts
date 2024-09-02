@@ -1,6 +1,6 @@
 /**
  * @description esconde o popover (mensagem) ativado depois de um tempo
- * @param {HTMLElement} event elemento HTML com o atributo popover
+ * @param { Event } event evento popover
  * @returns {void} 
  * @link https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/beforetoggle_event
  */
