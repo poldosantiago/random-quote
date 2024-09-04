@@ -4,7 +4,7 @@ import getQuote from "./services.js";
  * @description recebe a citação da API externa e insere o coneúdo dela no HTML
  */
 async function loadQuote(){
-    const [response] = await getQuote();
+    const response = await getQuote();
     const { quote, author, category} = response;
 
     const textPar:HTMLParagraphElement = document.querySelector('[data-quote-text]');
