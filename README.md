@@ -6,7 +6,7 @@
 
 Gerador de citações aleatórias. O projeto faz parte do desafio proposto pelo site [devchallenges.io](https://devchallenges.io).
 
-Para conferir o resultado, clique [aqui](https://random-quote-cyan.vercel.app/).
+Para conferir o resultado, clique [aqui](https://random-quote-eight-iota.vercel.app/).
 
 A página do desafio pode ser acessada [aqui](https://devchallenges.io/challenge/qa-code-generator).
 
@@ -18,4 +18,4 @@ HTML5, CSS, Javascript, JSDoc e a API externa <s>[Quotes API](https://api-ninjas
 # Atualização
 
 - Migrei o projeto para Typescript para fins de estudo.
-- Desenvolvi minha própria API para fornecer as citações de forma aleatória. Ela pode ser acessada [aqui](https://pt.meta.stackoverflow.com/questions/4019/como-escrever-tachado).
+- Desenvolvi minha própria API para fornecer as citações de forma aleatória. O projeto pode ser acessada [aqui](https://github.com/poldosantiago/random-quote-back).
